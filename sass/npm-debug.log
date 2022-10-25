@@ -1,0 +1,210 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install', '-g', 'scss' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readGlobalPackageData
+7 silly fetchPackageMetaData scss
+8 silly fetchNamedPackageData scss
+9 silly mapToRegistry name scss
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry uri https://registry.npmjs.org/scss
+13 verbose request uri https://registry.npmjs.org/scss
+14 verbose request no auth needed
+15 info attempt registry request try #1 at 2:23:50 PM
+16 verbose request id c568b3d728e888eb
+17 http request GET https://registry.npmjs.org/scss
+18 http 200 https://registry.npmjs.org/scss
+19 verbose headers { date: 'Sat, 30 Apr 2022 12:23:51 GMT',
+19 verbose headers   'content-type': 'application/json; charset=UTF-8',
+19 verbose headers   'transfer-encoding': 'chunked',
+19 verbose headers   connection: 'keep-alive',
+19 verbose headers   'cf-ray': '7040403e6b0a8ee7-SOF',
+19 verbose headers   'access-control-allow-origin': '*',
+19 verbose headers   'cache-control': 'public, max-age=300',
+19 verbose headers   etag: 'W/"f321767f1c4460189573d2256e1063d6"',
+19 verbose headers   'last-modified': 'Sun, 27 May 2018 16:49:37 GMT',
+19 verbose headers   vary: 'accept-encoding, accept',
+19 verbose headers   'cf-cache-status': 'REVALIDATED',
+19 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+19 verbose headers   server: 'cloudflare',
+19 verbose headers   'content-encoding': 'gzip' }
+20 silly get cb [ 200,
+20 silly get   { date: 'Sat, 30 Apr 2022 12:23:51 GMT',
+20 silly get     'content-type': 'application/json; charset=UTF-8',
+20 silly get     'transfer-encoding': 'chunked',
+20 silly get     connection: 'keep-alive',
+20 silly get     'cf-ray': '7040403e6b0a8ee7-SOF',
+20 silly get     'access-control-allow-origin': '*',
+20 silly get     'cache-control': 'public, max-age=300',
+20 silly get     etag: 'W/"f321767f1c4460189573d2256e1063d6"',
+20 silly get     'last-modified': 'Sun, 27 May 2018 16:49:37 GMT',
+20 silly get     vary: 'accept-encoding, accept',
+20 silly get     'cf-cache-status': 'REVALIDATED',
+20 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+20 silly get     server: 'cloudflare',
+20 silly get     'content-encoding': 'gzip' } ]
+21 verbose get saving scss to /home/oprifti/.npm/registry.npmjs.org/scss/.cache.json
+22 silly install normalizeTree
+23 silly loadCurrentTree Finishing
+24 silly loadIdealTree Starting
+25 silly install loadIdealTree
+26 silly cloneCurrentTree Starting
+27 silly install cloneCurrentTreeToIdealTree
+28 silly cloneCurrentTree Finishing
+29 silly loadShrinkwrap Starting
+30 silly install loadShrinkwrap
+31 silly loadShrinkwrap Finishing
+32 silly loadAllDepsIntoIdealTree Starting
+33 silly install loadAllDepsIntoIdealTree
+34 silly resolveWithNewModule scss@0.2.4 checking installable status
+35 silly cache add args [ 'scss', null ]
+36 verbose cache add spec scss
+37 silly cache add parsed spec Result {
+37 silly cache add   raw: 'scss',
+37 silly cache add   scope: null,
+37 silly cache add   name: 'scss',
+37 silly cache add   rawSpec: '',
+37 silly cache add   spec: 'latest',
+37 silly cache add   type: 'tag' }
+38 silly addNamed scss@latest
+39 verbose addNamed "latest" is being treated as a dist-tag for scss
+40 info addNameTag [ 'scss', 'latest' ]
+41 silly mapToRegistry name scss
+42 silly mapToRegistry using default registry
+43 silly mapToRegistry registry https://registry.npmjs.org/
+44 silly mapToRegistry uri https://registry.npmjs.org/scss
+45 verbose addNameTag registry:https://registry.npmjs.org/scss not in flight; fetching
+46 verbose get https://registry.npmjs.org/scss not expired, no request
+47 silly addNameTag next cb for scss with tag latest
+48 silly addNamed scss@0.2.4
+49 verbose addNamed "0.2.4" is a plain semver version for scss
+50 silly mapToRegistry name scss
+51 silly mapToRegistry using default registry
+52 silly mapToRegistry registry https://registry.npmjs.org/
+53 silly mapToRegistry uri https://registry.npmjs.org/scss
+54 verbose addRemoteTarball https://registry.npmjs.org/scss/-/scss-0.2.4.tgz not in flight; adding
+55 verbose addRemoteTarball [ 'https://registry.npmjs.org/scss/-/scss-0.2.4.tgz',
+55 verbose addRemoteTarball   '040d903ed37c5d4fa4ad33ae1fd389ac12a4e065' ]
+56 info retry fetch attempt 1 at 2:23:51 PM
+57 info attempt registry request try #1 at 2:23:51 PM
+58 http fetch GET https://registry.npmjs.org/scss/-/scss-0.2.4.tgz
+59 http fetch 200 https://registry.npmjs.org/scss/-/scss-0.2.4.tgz
+60 silly fetchAndShaCheck shasum 040d903ed37c5d4fa4ad33ae1fd389ac12a4e065
+61 verbose addTmpTarball /tmp/npm-10609-ad1616b2/registry.npmjs.org/scss/-/scss-0.2.4.tgz not in flight; adding
+62 verbose addTmpTarball already have metadata; skipping unpack for scss@0.2.4
+63 silly cache afterAdd scss@0.2.4
+64 verbose afterAdd /home/oprifti/.npm/scss/0.2.4/package/package.json not in flight; writing
+65 verbose afterAdd /home/oprifti/.npm/scss/0.2.4/package/package.json written
+66 silly fetchNamedPackageData ometa
+67 silly mapToRegistry name ometa
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/ometa
+71 verbose request uri https://registry.npmjs.org/ometa
+72 verbose request no auth needed
+73 info attempt registry request try #1 at 2:23:52 PM
+74 http request GET https://registry.npmjs.org/ometa
+75 http 200 https://registry.npmjs.org/ometa
+76 verbose headers { date: 'Sat, 30 Apr 2022 12:23:53 GMT',
+76 verbose headers   'content-type': 'application/json; charset=UTF-8',
+76 verbose headers   'transfer-encoding': 'chunked',
+76 verbose headers   connection: 'keep-alive',
+76 verbose headers   'cf-ray': '7040404b88058ee7-SOF',
+76 verbose headers   'access-control-allow-origin': '*',
+76 verbose headers   'cache-control': 'public, max-age=300',
+76 verbose headers   etag: 'W/"2f79f8c99b729604bd9d696b6391ae97"',
+76 verbose headers   'last-modified': 'Sun, 27 May 2018 11:09:01 GMT',
+76 verbose headers   vary: 'accept-encoding, accept',
+76 verbose headers   'cf-cache-status': 'MISS',
+76 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+76 verbose headers   server: 'cloudflare',
+76 verbose headers   'content-encoding': 'gzip' }
+77 silly get cb [ 200,
+77 silly get   { date: 'Sat, 30 Apr 2022 12:23:53 GMT',
+77 silly get     'content-type': 'application/json; charset=UTF-8',
+77 silly get     'transfer-encoding': 'chunked',
+77 silly get     connection: 'keep-alive',
+77 silly get     'cf-ray': '7040404b88058ee7-SOF',
+77 silly get     'access-control-allow-origin': '*',
+77 silly get     'cache-control': 'public, max-age=300',
+77 silly get     etag: 'W/"2f79f8c99b729604bd9d696b6391ae97"',
+77 silly get     'last-modified': 'Sun, 27 May 2018 11:09:01 GMT',
+77 silly get     vary: 'accept-encoding, accept',
+77 silly get     'cf-cache-status': 'MISS',
+77 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+77 silly get     server: 'cloudflare',
+77 silly get     'content-encoding': 'gzip' } ]
+78 verbose get saving ometa to /home/oprifti/.npm/registry.npmjs.org/ometa/.cache.json
+79 silly resolveWithNewModule ometa@0.2.2 checking installable status
+80 silly cache add args [ 'ometa@0.2.2', null ]
+81 verbose cache add spec ometa@0.2.2
+82 silly cache add parsed spec Result {
+82 silly cache add   raw: 'ometa@0.2.2',
+82 silly cache add   scope: null,
+82 silly cache add   name: 'ometa',
+82 silly cache add   rawSpec: '0.2.2',
+82 silly cache add   spec: '0.2.2',
+82 silly cache add   type: 'version' }
+83 silly addNamed ometa@0.2.2
+84 verbose addNamed "0.2.2" is a plain semver version for ometa
+85 silly mapToRegistry name ometa
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry uri https://registry.npmjs.org/ometa
+89 verbose addNameVersion registry:https://registry.npmjs.org/ometa not in flight; fetching
+90 verbose get https://registry.npmjs.org/ometa not expired, no request
+91 silly mapToRegistry name ometa
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/ometa
+95 verbose addRemoteTarball https://registry.npmjs.org/ometa/-/ometa-0.2.2.tgz not in flight; adding
+96 verbose addRemoteTarball [ 'https://registry.npmjs.org/ometa/-/ometa-0.2.2.tgz',
+96 verbose addRemoteTarball   'f53c4735ba6d56af5a46b04dfb7c4334c596d44e' ]
+97 info retry fetch attempt 1 at 2:23:54 PM
+98 info attempt registry request try #1 at 2:23:54 PM
+99 http fetch GET https://registry.npmjs.org/ometa/-/ometa-0.2.2.tgz
+100 http fetch 200 https://registry.npmjs.org/ometa/-/ometa-0.2.2.tgz
+101 silly fetchAndShaCheck shasum f53c4735ba6d56af5a46b04dfb7c4334c596d44e
+102 verbose addTmpTarball /tmp/npm-10609-ad1616b2/registry.npmjs.org/ometa/-/ometa-0.2.2.tgz not in flight; adding
+103 verbose addTmpTarball already have metadata; skipping unpack for ometa@0.2.2
+104 silly cache afterAdd ometa@0.2.2
+105 verbose afterAdd /home/oprifti/.npm/ometa/0.2.2/package/package.json not in flight; writing
+106 verbose afterAdd /home/oprifti/.npm/ometa/0.2.2/package/package.json written
+107 silly loadAllDepsIntoIdealTree Finishing
+108 silly idealTree:prePrune lib
+108 silly idealTree:prePrune └─┬ scss@0.2.4
+108 silly idealTree:prePrune   └── ometa@0.2.2
+109 silly loadIdealTree Finishing
+110 silly currentTree lib
+111 silly idealTree lib
+111 silly idealTree └─┬ scss@0.2.4
+111 silly idealTree   └── ometa@0.2.2
+112 silly generateActionsToTake Starting
+113 silly install generateActionsToTake
+114 warn checkPermissions Missing write access to /usr/local/lib
+115 silly rollbackFailedOptional Starting
+116 silly rollbackFailedOptional Finishing
+117 silly runTopLevelLifecycles Starting
+118 silly runTopLevelLifecycles Finishing
+119 silly install printInstalled
+120 verbose stack Error: EACCES: permission denied, access '/usr/local/lib'
+121 verbose cwd /home/oprifti/Downloads/git
+122 error Linux 4.15.0-176-generic
+123 error argv "/usr/bin/node" "/usr/bin/npm" "install" "-g" "scss"
+124 error node v8.10.0
+125 error npm  v3.5.2
+126 error path /usr/local/lib
+127 error code EACCES
+128 error errno -13
+129 error syscall access
+130 error Error: EACCES: permission denied, access '/usr/local/lib'
+130 error  { Error: EACCES: permission denied, access '/usr/local/lib'
+130 error   errno: -13,
+130 error   code: 'EACCES',
+130 error   syscall: 'access',
+130 error   path: '/usr/local/lib' }
+131 error Please try running this command again as root/Administrator.
+132 verbose exit [ -13, true ]
